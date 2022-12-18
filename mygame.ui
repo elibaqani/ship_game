@@ -1,0 +1,538 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>578</width>
+    <height>575</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">position: relative;
+width:429px;
+height:934px;
+
+background: #060028;
+</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <property name="styleSheet">
+    <string notr="true">position: relative;
+width:429px;
+height:934px;
+
+background: #060028;
+</string>
+   </property>
+   <widget class="QPushButton" name="ship">
+    <property name="geometry">
+     <rect>
+      <x>340</x>
+      <y>200</y>
+      <width>111</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">#ship{
+image: url(:/image/28707-7-ship-photos.png);
+color:rgb(255, 255, 255);
+box-sizing: border-box;
+position:absolute;
+width:140px;
+height:95px;
+left:255px;
+top:655px;
+background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 rgba(7, 4, 40, 255), stop:1 rgba(33, 45, 83, 255));
+backdrop-filter :blur(2px);
+border-radius:21px;
+linear-gradient:(red 10%, 30%, blue 90%);
+}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="fish">
+    <property name="geometry">
+     <rect>
+      <x>340</x>
+      <y>270</y>
+      <width>111</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">#fish{
+	image: url(:/image/transparent-fish-pomacanthidae-blue-fish-holacanthus-5d9caf64006eb3.1375152215705496040018.png);
+color:rgb(255, 255, 255);
+box-sizing: border-box;
+position:absolute;
+width:140px;
+height:95px;
+left:255px;
+top:655px;
+background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 rgba(7, 4, 40, 255), stop:1 rgba(33, 45, 83, 255));
+backdrop-filter :blur(2px);
+border-radius:21px;
+linear-gradient:(red 10%, 30%, blue 90%);
+}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="balance">
+    <property name="geometry">
+     <rect>
+      <x>340</x>
+      <y>340</y>
+      <width>111</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">#balance{
+image:url(:/image/Money-Bag-PNG-Image.png);
+color:rgb(255, 255, 255);
+box-sizing: border-box;
+position:absolute;
+width:140px;
+height:95px;
+left:255px;
+top:655px;
+background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 rgba(7, 4, 40, 255), stop:1 rgba(33, 45, 83, 255));
+backdrop-filter :blur(2px);
+border-radius:21px;
+linear-gradient:(red 10%, 30%, blue 90%);
+}
+QPushButton::hover
+{
+ background-color : lightgreen;
+                  }</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="buy_ship">
+    <property name="geometry">
+     <rect>
+      <x>150</x>
+      <y>200</y>
+      <width>111</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">#buy_ship{
+color:rgb(255, 255, 255);
+box-sizing: border-box;
+position:absolute;
+width:140px;
+height:95px;
+left:255px;
+top:655px;
+background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 rgba(7, 4, 40, 255), stop:1 rgba(33, 45, 83, 255));
+backdrop-filter :blur(2px);
+border-radius:21px;
+linear-gradient:(red 10%, 30%, blue 90%);
+}</string>
+    </property>
+    <property name="text">
+     <string>Buy Ship</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="sell_ship">
+    <property name="geometry">
+     <rect>
+      <x>150</x>
+      <y>270</y>
+      <width>111</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">#sell_ship{
+color:rgb(255, 255, 255);
+box-sizing: border-box;
+position:absolute;
+width:140px;
+height:95px;
+left:255px;
+top:655px;
+background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 rgba(7, 4, 40, 255), stop:1 rgba(33, 45, 83, 255));
+backdrop-filter :blur(2px);
+border-radius:21px;
+linear-gradient:(red 10%, 30%, blue 90%);
+}</string>
+    </property>
+    <property name="text">
+     <string>Sell Ship</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="sell_fish">
+    <property name="geometry">
+     <rect>
+      <x>150</x>
+      <y>340</y>
+      <width>111</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">#sell_fish{
+color:rgb(255, 255, 255);
+box-sizing: border-box;
+position:absolute;
+width:140px;
+height:95px;
+left:255px;
+top:655px;
+background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 rgba(7, 4, 40, 255), stop:1 rgba(33, 45, 83, 255));
+backdrop-filter :blur(2px);
+border-radius:21px;
+linear-gradient:(red 10%, 30%, blue 90%);
+}</string>
+    </property>
+    <property name="text">
+     <string>Sell Fish</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="investment">
+    <property name="geometry">
+     <rect>
+      <x>320</x>
+      <y>450</y>
+      <width>131</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">#investment{
+color:rgb(255, 255, 255);
+box-sizing: border-box;
+position:absolute;
+width:140px;
+height:95px;
+left:255px;
+top:655px;
+background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 rgba(7, 4, 40, 255), stop:1 rgba(33, 45, 83, 255));
+backdrop-filter :blur(2px);
+border-radius:21px;
+linear-gradient:(red 10%, 30%, blue 90%);
+}
+QPushButton::hover
+{
+ background-color : lightgreen;
+                  }</string>
+    </property>
+    <property name="text">
+     <string>Investment</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="fishing">
+    <property name="geometry">
+     <rect>
+      <x>150</x>
+      <y>450</y>
+      <width>131</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">#fishing{
+color:rgb(255, 255, 255);
+box-sizing: border-box;
+position:absolute;
+width:140px;
+height:95px;
+left:255px;
+top:655px;
+background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 rgba(7, 4, 40, 255), stop:1 rgba(33, 45, 83, 255));
+backdrop-filter :blur(2px);
+border-radius:21px;
+linear-gradient:(red 10%, 30%, blue 90%);
+}</string>
+    </property>
+    <property name="text">
+     <string>Fishing</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="start">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>30</y>
+      <width>51</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">#start{
+image:url(:/image/start.png);
+color:rgb(255, 255, 255);
+box-sizing: border-box;
+position:absolute;
+width:140px;
+height:95px;
+left:255px;
+top:655px;
+background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 rgba(7, 4, 40, 255), stop:1 rgba(33, 45, 83, 255));
+backdrop-filter :blur(2px);
+border-radius:21px;
+linear-gradient:(red 10%, 30%, blue 90%)
+
+}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QTextBrowser" name="textbox">
+    <property name="geometry">
+     <rect>
+      <x>110</x>
+      <y>10</y>
+      <width>391</width>
+      <height>161</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">#textbox{
+color:rgb(0, 0, 0);
+	background-color: rgb(222, 221, 255);
+}</string>
+    </property>
+    <property name="html">
+     <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'MS Shell Dlg 2'; font-size:8.25pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:16pt;&quot;&gt;I Was Waiting For You&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="end">
+    <property name="geometry">
+     <rect>
+      <x>560</x>
+      <y>30</y>
+      <width>51</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">#end{
+image:url(:/image/stop.png);
+color:rgb(255, 255, 255);
+box-sizing: border-box;
+position:absolute;
+width:140px;
+height:95px;
+left:255px;
+top:655px;
+background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 rgba(7, 4, 40, 255), stop:1 rgba(33, 45, 83, 255));
+backdrop-filter :blur(2px);
+border-radius:21px;
+linear-gradient:(red 10%, 30%, blue 90%)
+
+}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="player1">
+    <property name="geometry">
+     <rect>
+      <x>150</x>
+      <y>540</y>
+      <width>113</width>
+      <height>20</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_2">
+    <property name="geometry">
+     <rect>
+      <x>310</x>
+      <y>540</y>
+      <width>113</width>
+      <height>20</height>
+     </rect>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources>
+  <include location="../Qt first project/game/resources.qrc"/>
+ </resources>
+ <connections>
+  <connection>
+   <sender>buy_ship</sender>
+   <signal>clicked()</signal>
+   <receiver>buy_ship</receiver>
+   <slot>update()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>200</x>
+     <y>145</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>200</x>
+     <y>145</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>sell_ship</sender>
+   <signal>clicked()</signal>
+   <receiver>sell_ship</receiver>
+   <slot>update()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>200</x>
+     <y>225</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>200</x>
+     <y>225</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>sell_fish</sender>
+   <signal>clicked()</signal>
+   <receiver>sell_fish</receiver>
+   <slot>update()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>200</x>
+     <y>305</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>200</x>
+     <y>305</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>fishing</sender>
+   <signal>clicked()</signal>
+   <receiver>fishing</receiver>
+   <slot>update()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>215</x>
+     <y>395</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>215</x>
+     <y>395</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>start</sender>
+   <signal>clicked()</signal>
+   <receiver>start</receiver>
+   <slot>update()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>300</x>
+     <y>485</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>300</x>
+     <y>485</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>balance</sender>
+   <signal>clicked()</signal>
+   <receiver>balance</receiver>
+   <slot>update()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>410</x>
+     <y>305</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>410</x>
+     <y>305</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>investment</sender>
+   <signal>clicked()</signal>
+   <receiver>investment</receiver>
+   <slot>update()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>395</x>
+     <y>395</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>395</x>
+     <y>395</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>fish</sender>
+   <signal>clicked()</signal>
+   <receiver>fish</receiver>
+   <slot>update()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>410</x>
+     <y>225</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>410</x>
+     <y>225</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>ship</sender>
+   <signal>clicked()</signal>
+   <receiver>ship</receiver>
+   <slot>update()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>410</x>
+     <y>145</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>410</x>
+     <y>145</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>end</sender>
+   <signal>clicked()</signal>
+   <receiver>end</receiver>
+   <slot>click()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>380</x>
+     <y>515</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>380</x>
+     <y>515</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>
